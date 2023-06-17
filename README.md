@@ -17,6 +17,8 @@ A Parity Generator is a combinational logic circuit that generates the parity bi
 ![lo 1](https://github.com/imthiyas19/Simulation-project--Digital-Electronics/assets/120353416/3c51456e-d29b-42ae-a096-e25c33acb2b9)
 
 # program:
+```
+
 # developed by:M.MOHAMMED IMTHIYAS
 # register number:212222230083
 
@@ -39,6 +41,7 @@ signal temp : bit_vector(6 downto 0);
     temp(6) <= temp(5) xor data(7);
     e <= p xor temp(6);
 end parity_arch;
+```
 
 # TRUTH TABLE:
 ![TRU 1](https://github.com/imthiyas19/Simulation-project--Digital-Electronics/assets/120353416/63b9c9b4-7a3e-4731-8a5e-51abbfe3336a)
